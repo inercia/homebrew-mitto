@@ -3,17 +3,17 @@
 
 # Homebrew Cask for Mitto macOS app
 cask "mitto" do
-  version "0.0.14"
+  version "0.0.15"
 
   on_arm do
-    sha256 "455a59434c49be1828ab30a89f61980c27060ffccf2cfc24842887727955a292"
+    sha256 "758775ae58b2f36c303e97cec0dd0929a52ef990292219b483ac881260388538"
 
-    url "https://github.com/inercia/mitto/releases/download/v0.0.14/Mitto-darwin-arm64.zip"
+    url "https://github.com/inercia/mitto/releases/download/v0.0.15/Mitto-darwin-arm64.zip"
   end
   on_intel do
-    sha256 "7ae7b47792e95ab40aa19a4bfb4aefcf043a3c0cb3d67ebe4ea2c689a6331324"
+    sha256 "7b2fc9b4cc54b5a3d09f7da5b87268dca0e1d30b521adb49c83bf77ae495d595"
 
-    url "https://github.com/inercia/mitto/releases/download/v0.0.14/Mitto-darwin-amd64.zip"
+    url "https://github.com/inercia/mitto/releases/download/v0.0.15/Mitto-darwin-amd64.zip"
   end
 
   name "Mitto"
@@ -34,10 +34,6 @@ cask "mitto" do
     Mitto.app provides a native macOS interface for ACP communication.
 
     The CLI tool is also installed and available as 'mitto'.
-
-    Supported ACP servers:
-      - Auggie (auggie)
-      - Claude Code (claude-code)
 
     For more information, visit:
       https://github.com/inercia/mitto
