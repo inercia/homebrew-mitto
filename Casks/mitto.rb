@@ -3,17 +3,17 @@
 
 # Homebrew Cask for Mitto macOS app
 cask "mitto" do
-  version "0.0.15"
+  version "0.1.0"
 
   on_arm do
-    sha256 "758775ae58b2f36c303e97cec0dd0929a52ef990292219b483ac881260388538"
+    sha256 "dcb7bdfbad3da85ce9e49d4e7ec3937804e92b61d117026d60b8258287124f52"
 
-    url "https://github.com/inercia/mitto/releases/download/v0.0.15/Mitto-darwin-arm64.zip"
+    url "https://github.com/inercia/mitto/releases/download/v0.1.0/Mitto-darwin-arm64.zip"
   end
   on_intel do
-    sha256 "7b2fc9b4cc54b5a3d09f7da5b87268dca0e1d30b521adb49c83bf77ae495d595"
+    sha256 "d5797db81885c75ad84208c4f5584dd78f38ae5d9893f2d0f23116494c991e08"
 
-    url "https://github.com/inercia/mitto/releases/download/v0.0.15/Mitto-darwin-amd64.zip"
+    url "https://github.com/inercia/mitto/releases/download/v0.1.0/Mitto-darwin-amd64.zip"
   end
 
   name "Mitto"
