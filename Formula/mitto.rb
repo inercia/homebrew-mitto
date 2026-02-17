@@ -5,26 +5,26 @@
 class Mitto < Formula
   desc "CLI client for the Agent Communication Protocol (ACP)"
   homepage "https://github.com/inercia/mitto"
-  version "0.2.0"
+  version "0.2.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/inercia/mitto/releases/download/v0.2.0/mitto-darwin-amd64.tar.gz"
-      sha256 "d86d61c975186afdda150ea631380f636cac4447703549617f6cbdfe25466a5f"
+      url "https://github.com/inercia/mitto/releases/download/v0.2.1/mitto-darwin-amd64.tar.gz"
+      sha256 "066277318e02df945915f68458a5df2865c96b1b0405647fcfc5cb6eb9aa2564"
     else
-      url "https://github.com/inercia/mitto/releases/download/v0.2.0/mitto-darwin-arm64.tar.gz"
-      sha256 "2c6677701616e8f47ddbb04f953b7f77a5cf9a8b12dca8163d9ae6469e75f35d"
+      url "https://github.com/inercia/mitto/releases/download/v0.2.1/mitto-darwin-arm64.tar.gz"
+      sha256 "88cbb68cd4bf8e014244580b18df9ed42cec10cfdd844f308b66bf86677705f1"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/inercia/mitto/releases/download/v0.2.0/mitto-linux-amd64.tar.gz"
-      sha256 "a5d0df1c5657f438d20a36b6d93cee639dfb89726b8ebe457902bf996c0366ca"
+      url "https://github.com/inercia/mitto/releases/download/v0.2.1/mitto-linux-amd64.tar.gz"
+      sha256 "df515daf6635b02fc2551b3348a80757a5b950b99299df38264f92835c468843"
     else
-      url "https://github.com/inercia/mitto/releases/download/v0.2.0/mitto-linux-arm64.tar.gz"
-      sha256 "0a30a8072724061b698c1680609f1ccdc9cd26dc04ff4954935e300cb0c52a13"
+      url "https://github.com/inercia/mitto/releases/download/v0.2.1/mitto-linux-arm64.tar.gz"
+      sha256 "27a15c8fe7c5663d29501ddc8c73fc9cc4485f886489ebda7c2f751cd3835eba"
     end
   end
 
